@@ -1,0 +1,416 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+div.menu{
+  width: 100%;
+  background-color: #a30023;
+
+}
+
+div.menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+div.menu ul li{
+  float: right;
+}
+div.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin:0;
+  padding: 10px 15px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+div.menu ul li a:hover{
+  border-top: 2px solid #fff;
+}
+div.menu img{
+  width: 150;
+  height: 200;
+}
+
+div.header{
+  width: 100%;
+  height: 700px;
+  background: url("bg_telkom.jpg") no-repeat center;
+  background-size: cover;
+  float: left;
+}
+div.gelap{
+  width: 100%;
+  height: 700px;s
+  margin: 0;
+  padding: 0;
+  background: #000;
+  opacity: 0.7;
+  float: left;
+}
+div.header h1{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  top: 200px;
+  left: 370px;
+}
+
+div.header h1 label{
+  font-size: 30px;
+}
+
+div.header h1 span{
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+div.header img{
+  width:100px;
+  height: auto;
+}
+
+div.konten{
+  width: 100%;
+  margin-top: 30%;
+  padding-bottom: 50px;
+}
+
+div.konten1{
+  margin-left: 200px;
+  width: 30%;
+  float: left;
+  text-align: right;
+}
+div.title{
+  padding-right: 30px;
+  border-right: 5px solid #BF2626;
+}
+
+div.title h1{
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: 15;
+  text-transform: uppercase;
+}
+
+div.konten1 p{
+  color: #A9A9A9;
+  font-family: 'Segoe UI';
+}
+
+div.konten2{
+  width: 30%;
+  float: right;
+  margin-right: 250px;
+  padding-top: 20px;
+}
+
+div.konten2 img{
+  width: 450px;
+  height: auto;
+  align-self: center;
+  border: 15px solid #000;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+div.layanan div.box{
+  width: 200px;
+  height: 350px
+  text-align: center;
+  float: left;
+  margin: 50px 60px 0 60px;
+  font-family: 'Segoe UI'
+}
+
+ div.circle{
+  margin-left: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 1000px;
+}
+div.deskripsi h2{
+  font-size: 20px;
+  text-align: center;
+}
+div.deskripsi{
+  text-align: center;
+}
+ div.circle img{
+   padding-top: 5px;
+  width: 60%;
+  margin-top: 18px;
+}
+div.group div.box div.circle{
+  margin-left: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 1000px;
+}
+div.group div.box div.circle img{
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+div.prestasi{
+  margin-top: 100px;
+  position: relative;
+  width: 100%;
+  height: 720px;
+  background: url("suga.jpg")  no-repeat center;
+  background-size: cover;
+  color: black;
+  float: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+div.prestasi div.gelap2{
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: linear-gradient(to right, #000, transparent);
+  opacity: 0.96;
+}
+div.isi{
+  position: absolute;
+  text-align: right;
+  margin-top: 310px;
+  padding-right: 10px;
+  padding-left: 100px;
+  border-right: 5px solid #BF2626;
+}
+div.isi h1{
+  /*text-align: right;
+  font-family: 'Segoe UI';
+  position: absolute;
+  top: 40%;
+  left: 100px;
+  padding-right: 20px;
+  width: 450px;
+*/
+  margin: 2px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: white;
+}
+div.isi h2{
+  margin: 2px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: gray;
+}
+div.isi h3{
+  margin: 2px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 10;
+  color: white;
+}
+
+div.isiGambar{
+  position: absolute;
+  top: 37%;
+  left: 37%;
+  padding-bottom: 150px;
+  width:40%
+  height: auto;
+  padding-right: 250px;
+}
+
+div.prestasi div.isiGambar div.blur{
+  width: 50%
+  height: 720px;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  opacity: 0.7;
+  float: left;
+}
+div.studi{
+  width: 100%;
+  text-align: center;
+  font-family: 'Segoe UI';
+  margin-top: 100px;
+}
+
+div.circle2{
+  margin-left: 46%;
+  height: 100px;
+  width: 100px;
+  border-radius: 1000px;
+}
+
+div.circle2 img{
+  width: 60%;
+  margin-top: 18px;
+}
+
+div.program{
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+div.jurusan img{
+  width: 85%;
+  margin-left: 110px;
+}
+
+div.jurusan{
+  position: relative;
+  height: 550px;
+  width: 100%;
+  background: linear-gradient(white 250px, #BF2626 250px);
+  color: white
+}
+
+div.rpl{
+  text-align: center;
+  font-family: 'Segoe UI';
+  float: left;
+  width: 30%;
+  margin-left: 160px;
+  z-index: 100;
+}
+div.rpl h1{
+  font-size: 25px;
+  font-weight: normal;
+}
+div.rpl p{
+  font-weight: lighter;
+}
+div.tkj h1{
+  font-size: 25px;
+  width: 435px;
+  text-align: center;
+  font-weight: normal;
+}
+div.tkj p{
+  font-weight: lighter;
+}
+div.tkj{
+  text-align: center;
+  font-family: 'Segoe UI';
+  float: right;
+  width: 30%;
+  margin-right: 160px;
+  z-index: 100;
+}
+
+div.teks{
+  border-left: 5px solid #BF2626;
+  padding-left: 40px;
+  margin-left: 200px;
+}
+div.prestasi2{
+  margin-top: 100px;
+  font-family: 'Segoe UI'
+}
+div.teks2{
+  float: left;
+  width: 400px;
+  margin-left: 200px;
+}
+div.slide{
+  margin-right: 100px;
+  float: right;
+}
+div.slide img{
+  width: 500px;
+  height: auto;
+}
+
+div.bottom{
+  color: white;
+  font-family: 'Segoe UI';
+  height: 150px;
+  background-color:#BF2626;
+}
+
+div.bottom h3{
+  padding-top: 30px;
+  margin-left: 100px;
+  font-weight: normal;
+}
+
+div.info{
+  width: 100%;
+  text-align: center;
+  font-family: 'Segoe UI';
+  margin-top: 100px;
+}
+
+div.sosmed{
+  margin-top: 100px;
+  height: 200px;
+  background: #BF2626;
+  color: white;
+  font-family: 'Segoe UI';
+  padding-left: 200px;
+  padding-top: 20px;
+}
+
+div.sosmed h1,h5{
+  font-weight: normal;
+}
+
+div.agenda{
+  width: 100%;
+  text-align: center;
+  font-family: 'Segoe UI';
+  margin-top: 100px;
+}
+
+div.info H1{
+  font-weight: normal;
+}
+
+div.agenda H1{
+  font-weight: normal;
+}
+div.partner{
+  width: 100%;
+  text-align: center;
+  font-family: 'Segoe UI';
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+div.partner H1{
+  font-weight: normal;
+}
+div.footer{
+  height: 400px;
+  background: #211E1E;
+  color: white;
+  padding-top: 50px;
+  font-family: 'Segoe UI';
+}
+
+div.fcontent{
+  float: left;
+  width: 250px;
+  margin-left: 60px;
+}
+div.fcontent img{
+  width: 150px;
+  height: auto;
+
+}
+div.fbottom{
+  height:60px;
+  margin-top: 150px;
+  background: black;
+}
+div.fbottom p{
+  padding-top: 15px;
+  margin-left: 120px;
+  text-align: left;
+}

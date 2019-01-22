@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS 5</title>
+    <style media="screen">
+      .container{
+        width:50%;
+        height:200px;
+        overflow: auto;
+        margin-left: 0 auto;
+      }
+      .static{ position: static; border: 2px solid green; }
+      .relative{
+        position: relative;
+        border: 2px solid red;
+        left: 20px; /* jarak dari posisi paling kiri sebesar 20px */
+        bottom: 0;/* jarak dari posisi paling bawah sebesar 0px */
+      }
+      .absolute{ position: absolute; border: 2px solid blue; left: 20px; bottom 40px; }
+      .fixed{ position: fixed; border 2px solid black; bottom: 0; right: 0; }
+      .sticky{
+        position: sticky;
+        border: 2px solid yellow;
+        top: 0;
+        left: 20px;
+        background: darkblue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="sticky">
+        Ini adalah contoh dari posisi sticky
+      </p>
+
+      <p class="static">
+        <b>Ini adalah contoh dari posistion static</b> <br>
+        Bangtan Boys, is a seven-member South Korean boy band formed by Big Hit Entertainment.
+        The name subsequently became a backronym for Beyond the Scene in July 2017. On June 12, 2013,
+        they performed the song "No More Dream" from their initial album 2 Cool 4 Skool
+        to commemorate their debut on June 13, 2013. They won several New Artist of the Year awards
+        for the track "No More Dream", including at the 2013 Melon Music Awards and Golden Disc Awards
+        and the 2014 Seoul Music Awards. The band continued to gain prominence with their
+        subsequent albums Dark & Wild (2014), The Most Beautiful Moment in Life, Part 2 (2015) and
+        The Most Beautiful Moment in Life: Young Forever (2016), with the latter two entering the U.S. Billboard 200.
+        The Most Beautiful Moment in Life: Young Forever went on to win the Album of the Year award
+        at the 2016 Melon Music Awards.
+      </p>
+      <p class="relative">
+      <b>Ini adalah contoh dari posistion relative</b> <br>
+      Bangtan Boys, is a seven-member South Korean boy band formed by Big Hit Entertainment.
+      The name subsequently became a backronym for Beyond the Scene in July 2017. On June 12, 2013,
+      they performed the song "No More Dream" from their initial album 2 Cool 4 Skool
+      to commemorate their debut on June 13, 2013. They won several New Artist of the Year awards
+      for the track "No More Dream", including at the 2013 Melon Music Awards and Golden Disc Awards
+      and the 2014 Seoul Music Awards. The band continued to gain prominence with their
+      subsequent albums Dark & Wild (2014), The Most Beautiful Moment in Life, Part 2 (2015) and
+      The Most Beautiful Moment in Life: Young Forever (2016), with the latter two entering the U.S. Billboard 200.
+      The Most Beautiful Moment in Life: Young Forever went on to win the Album of the Year award
+      at the 2016 Melon Music Awards.
+      </p>
+      <p class="absolute">
+      <b>Ini adalah contoh dari position absolute</b> <br>
+      Bangtan Boys, is a seven-member South Korean boy band formed by Big Hit Entertainment.
+      The name subsequently became a backronym for Beyond the Scene in July 2017. On June 12, 2013,
+      they performed the song "No More Dream" from their initial album 2 Cool 4 Skool
+      to commemorate their debut on June 13, 2013. They won several New Artist of the Year awards
+      for the track "No More Dream", including at the 2013 Melon Music Awards and Golden Disc Awards
+      and the 2014 Seoul Music Awards. The band continued to gain prominence with their
+      subsequent albums Dark & Wild (2014), The Most Beautiful Moment in Life, Part 2 (2015) and
+      The Most Beautiful Moment in Life: Young Forever (2016), with the latter two entering the U.S. Billboard 200.
+      The Most Beautiful Moment in Life: Young Forever went on to win the Album of the Year award
+      at the 2016 Melon Music Awards.
+      </p>
+      <p class="fixed">
+        Ini merupakan contoh dari position fixed
+      </p>    
+    </div>
+  </body>
+</html>
